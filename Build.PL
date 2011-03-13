@@ -22,12 +22,13 @@ my %module_build_args = (
     'Sawyer X <xsawyerx@cpan.org>'
   ],
   'dist_name' => 'Dancer-Logger-ConsoleSpinner',
-  'dist_version' => '0.01',
+  'dist_version' => '0.02',
   'license' => 'perl',
   'module_name' => 'Dancer::Logger::ConsoleSpinner',
   'recommends' => {},
   'recursive_test_files' => 1,
   'requires' => {
+    'Dancer' => '0',
     'Dancer::Logger::Abstract' => '0'
   },
   'script_files' => []

@@ -27,9 +27,10 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Dancer::Logger::ConsoleSpinner',
   'PREREQ_PM' => {
+    'Dancer' => '0',
     'Dancer::Logger::Abstract' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

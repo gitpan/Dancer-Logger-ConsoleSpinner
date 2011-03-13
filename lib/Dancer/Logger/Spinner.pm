@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Dancer::Logger::Spinner;
 BEGIN {
-  $Dancer::Logger::Spinner::VERSION = '0.01';
+  $Dancer::Logger::Spinner::VERSION = '0.02';
 }
 # ABSTRACT: Show a spinner in the console on Dancer log messages!
 
@@ -51,7 +51,7 @@ Dancer::Logger::Spinner - Show a spinner in the console on Dancer log messages!
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
